@@ -24,3 +24,13 @@ This lets games get added easily by just adding a new file, and then the script 
 The Page JSON files allow the site to be paginated easily(and some day I plan to lazy load them when you scroll to the bottom but for now pages)
 
 I'm also working on search which will have a different condensed JSON file with just the names of all the games and the individual JSON files linked... Something like that... 
+
+# Game Info Structure
+
+TODO: Put the game structure here
+
+# Images
+
+![A Screenshot From Anthem](/Games/Images/anthem/anthem-ss.jpg)
+
+Images go in the folder respective to the JSON so for example the JSON for the game Anthem is at `/Games/anthem.json` and image from Anthem above is found in `/Games/Images/anthem/anthem-ss.jpg` if you look in the JSON the path `/Games/Images/anthem` is listed as the `images_path` for Anthem.
