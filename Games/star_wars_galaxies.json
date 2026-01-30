@@ -1,0 +1,18 @@
+{
+    "active":false,
+    "name": "Star Wars Galaxies",
+    "genre": "Action Adventure",
+    "type": "MMO",
+    "birth": "2003-06-26",
+    "death": "2011-12-15",
+    "death_reason": "Server Shutdown",
+    "images_path": "/Games/Images/star_wars_galaxies",
+    "related_games": [],
+    "platforms": [
+        "PC"
+    ],
+    "developer": "",
+    "publisher": "",
+    "notes": "<To Be Written> Being an MMO there's no official way to experience the game now that the servers are shut down.",
+    "details": "<To Be Written>"
+}

@@ -1,0 +1,26 @@
+
+{
+    "name": "Phantasy Star Online",
+    "genre": "RPG",
+    "type": "MMO",
+    "birth": "2000-12-21",
+    "death": "2007-03-31",
+    "death_reason": "Server Shutdown",
+    "images_path": "/Games/Images/pso",
+    "related_games": [
+        "Phantasy Star Online Ver: 2",
+        "Phantasy Star Online Ep I & II",
+        "Phantasy Star Online Ep I & II Plus",
+        "Phantasy Star Online Ep I & II Blue Burst"
+    ],
+    "platforms": [
+        "Dreamcast",
+        "PC",
+        "GameCube",
+        "Xbox"
+    ],
+    "developer": "Sonic Team",
+    "publisher": "SEGA",
+    "notes": "PSO is notable for being the first home console MMORPG, as the Dreamcast shiped with a 56k modem for playing games online. PSO was a major success both in Japan and the US, getting multiple sequels and content updates, The game ran for 7 years before being shut down a few months after the launch of Phantasy Star Universe on the Xbox 360 and PS2. Being an MMO there's no official way to experience the game now that the servers are shut down.",
+    "details": "Players take on the role of a hunter on the Pioneer 2, hired by the government to search the planet of Ragol for signs of the crew of the Pioneer 1, who they lost contact with after a large explosion."
+}

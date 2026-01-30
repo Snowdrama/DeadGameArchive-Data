@@ -1,0 +1,187 @@
+{
+  "games": [
+    {
+      "active": true,
+      "name": "Anthem",
+      "type": "Live Service",
+      "birth": "2019-02-22",
+      "death": "2026-01-16",
+      "death_reason": "Server Shutdown",
+      "images_path": "/Games/Images/anthem",
+      "images": [
+        "./Games/Images/anthem/anthem-ss.jpg",
+        "./Games/Images/anthem/anthem-ss2.jpg",
+        "./Games/Images/anthem/anthem.jpg"
+      ],
+      "platforms": [
+        "PC",
+        "PS5",
+        "XboxOne"
+      ],
+      "developer": "Bioware",
+      "publisher": "EA",
+      "notes": "Anthem is noteable for being held up as an example of the decline of 'Live Service' gaming. The game was almost universally panned on release for it's 'looter-shooter' style gampleay being extremely grindy, and having a weak story, however it's visuals, flight gamplay, and shooting gameplay itself were considered fun on their own. While Anthem reached at least 5m units sold, it still failed to meet EA's sales expectations. Being an always online live service game there is no offline mode, and no way to play now that the servers are shut down.",
+      "details": "An Open World third-person shooter and action role-playing. Players play as a Freelancer using exosuits called Javelins to complete missions on an alien world."
+    },
+    {
+      "active": true,
+      "name": "The Crew",
+      "type": "Live Service",
+      "birth": "2014-12-02",
+      "death": "2024-03-31",
+      "death_reason": "Server Shutdown",
+      "images_path": "/Games/Images/the_crew",
+      "images": [
+        "./Games/Images/the_crew/TheCrewBox.jpg"
+      ],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox360",
+        "XboxOne"
+      ],
+      "developer": "Ubsisoft Ivory Tower, Ubisoft Reflections",
+      "publisher": "Ubisoft",
+      "notes": "The game was generally considered a success, and the game even spawned a sequel, however the controversy came in 2024 when the decision to shut down the servers for the game came as a shock to the community when they could no longer even play the Single Player campaign due to it being an always online game with no offline mode. The Crew's shutdown is the event that kickstarted the Stop Killing Games campaign.",
+      "details": "The Crew is an Racing game, with a 20 hour campaign and online races. The campaing follows Alex Taylor who is framed for the murder of his older brother Dayton by FBI Special Agent Bill Coburn. After serving 5 years in prison he's approached by FBI Agent Zoe Winters, who asks him to help expose Coburn's corruption as well as help arrest the new leader of the 5-10 motor club, a group founded by Dayton, who's now being run by someone named Denis 'Shiv' Jefferson."
+    },
+    {
+      "active": true,
+      "name": "Wildstar",
+      "type": "MMO",
+      "birth": "2014-06-03",
+      "death": "2018-11-28",
+      "death_reason": "Server Shutdown",
+      "images_path": "/Games/Images/wildstar",
+      "images": [
+        "./Games/Images/wildstar/Wildstar.jpg",
+        "./Games/Images/wildstar/Wildstar2.jpg"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Carbine Studios",
+      "publisher": "NCSoft",
+      "notes": "Wildstar was one of the most hyped new MMOs after the rise of World of Warcraft, and was a contender to be one of the 'WoW Killers' that would potentially take a chunk of WoW's userbase. However even with a positive reception, the game didn't end up taking off and a year after launch in 2015 it was announced the game would go free to play. In 2016 they shut down PvP and merged the remaining players into 2 PvE servers. Ultimately NCSoft closed Carbine Studios in mid 2018 with the WildStar servers to shut down shortly after in November the same year. Being an MMO there's no official way to experience the game now that the servers are shut down.",
+      "details": "WildStar is a SciFi open world MMORPG set on a planet called Nexus. <To Be Written>"
+    },
+    {
+      "active": true,
+      "name": "Gravity Rush 2",
+      "type": "Online Features",
+      "birth": "2017-01-18",
+      "death": "2018-07-19",
+      "death_reason": "Online Service Shutdown",
+      "images_path": "/Games/Images/gravity_rush_2",
+      "images": [
+        "./Games/Images/gravity_rush_2/1-GravityRush2.jpg",
+        "./Games/Images/gravity_rush_2/2-2-gravity-rush-2-playstation-4-front-cover.jpg",
+        "./Games/Images/gravity_rush_2/2-gravity-rush-2-playstation-4-back-cover.jpg",
+        "./Games/Images/gravity_rush_2/4-gravity-rush-2-playstation-4-media.jpg"
+      ],
+      "platforms": [
+        "PS4"
+      ],
+      "developer": "Japan Studio",
+      "publisher": "Sony Interactive Entertainment",
+      "notes": "The game is still playable offline, but there are several features of the online game that are missing, the biggest being Treasure Hunts a mini game where you take a photo of a treasure chest, and then that photo is then picked up by other players and they can use the photo to find the treasure. With the servers offline, many of the items offered by using the online mode are no longer available.",
+      "details": "Gravity Rush follows Kat a girl who gains the mysterious power to change the direction of gravity. After the events of the first game the city of Hekseville is rebuilding when a gravitational event is detected in Neu Hiraleon, a floating island district of Hekseville. Kat along with her friend Raven and Syd go and investigate, the disturbance causes a rift and pulls all 3 into a different world along with the whole district."
+    },
+    {
+      "active": true,
+      "name": "Vanguard: Saga of Heroes",
+      "type": "MMO",
+      "birth": "2007-01-30",
+      "death": "2014-07-31",
+      "death_reason": "Server Shutdown",
+      "images_path": "/Games/Images/vanguard_saga_of_heroes",
+      "images": [
+        "./Games/Images/vanguard_saga_of_heroes/1-vanguard-saga-of-heroes-windows-front-cover.jpg",
+        "./Games/Images/vanguard_saga_of_heroes/2-vanguard-saga-of-heroes-windows-back-cover.jpg",
+        "./Games/Images/vanguard_saga_of_heroes/4-vanguard-saga-of-heroes-windows-media.jpg",
+        "./Games/Images/vanguard_saga_of_heroes/5-vanguard-saga-of-heroes-windows-media.jpg"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "",
+      "publisher": "",
+      "notes": "Vanguard was named GameSpy's 'Biggest Disappointment' of 2007, and won 'Least Fun', 'Most Desolate', and 'Lamest Launch' by MMORPG.com. Being an MMO there's no official way to experience the game now that the servers are shut down.",
+      "details": "<To Be Written>"
+    },
+    {
+      "active": false,
+      "name": "Star Wars Galaxies",
+      "type": "MMO",
+      "birth": "2003-06-26",
+      "death": "2011-12-15",
+      "death_reason": "Server Shutdown",
+      "images_path": "/Games/Images/star_wars_galaxies",
+      "images": [
+        "./Games/Images/star_wars_galaxies/1-star-wars-galaxies-starter-kit-windows-front-cover.jpg",
+        "./Games/Images/star_wars_galaxies/3-star-wars-galaxies-starter-kit-windows-an-early-firefight-teache.jpg",
+        "./Games/Images/star_wars_galaxies/6-star-wars-galaxies-starter-kit-windows-interior-of-the-falcon-no.jpg",
+        "./Games/Images/star_wars_galaxies/8-star-wars-galaxies-starter-kit-windows-players-who-had-unlocked-.jpg"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "",
+      "publisher": "",
+      "notes": "<To Be Written> Being an MMO there's no official way to experience the game now that the servers are shut down.",
+      "details": "<To Be Written>"
+    },
+    {
+      "active": false,
+      "name": "Phantasy Star Online",
+      "type": "MMO",
+      "birth": "2000-12-21",
+      "death": "2007-03-31",
+      "death_reason": "Server Shutdown",
+      "images_path": "/Games/Images/pso",
+      "images": [
+        "./Games/Images/pso/1-pso.jpg",
+        "./Games/Images/pso/5-pso-back.jpg",
+        "./Games/Images/pso/6-pso-manual.jpg",
+        "./Games/Images/pso/7-pso-disc.jpg"
+      ],
+      "platforms": [
+        "Dreamcast",
+        "PC",
+        "GameCube",
+        "Xbox"
+      ],
+      "developer": "Sonic Team",
+      "publisher": "SEGA",
+      "notes": "PSO is notable for being the first home console MMORPG, as the Dreamcast shiped with a 56k modem for playing games online. PSO was a major success both in Japan and the US, getting multiple sequels and content updates, The game ran for 7 years before being shut down a few months after the launch of Phantasy Star Universe on the Xbox 360 and PS2. Being an MMO there's no official way to experience the game now that the servers are shut down.",
+      "details": "Players take on the role of a hunter on the Pioneer 2, hired by the government to search the planet of Ragol for signs of the crew of the Pioneer 1, who they lost contact with after a large explosion."
+    },
+    {
+      "active": false,
+      "name": "Phantasy Star Online Episode III: Card Revolution",
+      "type": "MMO",
+      "birth": "2003-11-27",
+      "death": "2007-03-31",
+      "death_reason": "Server Shutdown",
+      "images_path": "/Games/Images/pso3",
+      "images": [
+        "./Games/Images/pso3/1-1-phantasy-star-online-episode-iii-card-revolution-gamecube-title-.png",
+        "./Games/Images/pso3/1-pso-ep3.jpg",
+        "./Games/Images/pso3/10-pso-ep3-ss.jpg",
+        "./Games/Images/pso3/2-phantasy-star-online-episode-iii-card-revolution-gamecube-edit-t.png",
+        "./Games/Images/pso3/3-phantasy-star-online-episode-iii-card-revolution-gamecube-battli.png",
+        "./Games/Images/pso3/4-phantasy-star-online-episode-iii-card-revolution-gamecube-select.png",
+        "./Games/Images/pso3/5-phantasy-star-online-episode-iii-card-revolution-gamecube-story-.png",
+        "./Games/Images/pso3/6-phantasy-star-online-episode-iii-card-revolution-gamecube-battle.png",
+        "./Games/Images/pso3/7-phantasy-star-online-episode-iii-card-revolution-gamecube-you-ca.png"
+      ],
+      "platforms": [
+        "GameCube"
+      ],
+      "developer": "Sonic Team",
+      "publisher": "SEGA",
+      "notes": "PSO Ep III is notable for being the sequel to the aclaimed PSO Episode I & II. Due to the game's shift in style from MMORPG to a card game didn't appeal to the fans of PSO, and the game had generally mixed reviews. Because of this the later released PSO Episode 4 Blue Burst that was released on PC, returned to the traditional gameplay.",
+      "details": "A sequel to Phantasy Star Online Episodes I & II that has card based gameplay. The game had 2 different stories involving the government of the Pioneer 2 vs The Arkz an anti government faction. Reviews were critical as the Card gameplay didn't line up with player expectations."
+    }
+  ]
+}

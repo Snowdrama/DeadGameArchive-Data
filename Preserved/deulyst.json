@@ -1,0 +1,15 @@
+{
+    "name":"Duelyst",
+    "genre": "Strategy",
+    "type": "PvP",
+    "birth":"1999-09-02",
+    "death":"2007-03-31",
+    "death-reason": "Studio Closure",
+    "images_path":"/images/deulyst",
+    "variants":[],
+    "platforms":[],
+    "developer":"",
+    "publisher":"",
+    "notable":"While a bittersweet end, the devs behind the Card game Duelyst completely open sourced the game with a CC0 license when the game eventually shut down. ",
+    "details":""
+}

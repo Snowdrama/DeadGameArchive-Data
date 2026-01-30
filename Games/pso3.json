@@ -1,0 +1,18 @@
+
+{
+    "name": "Phantasy Star Online Episode III: Card Revolution",
+    "genre": "Card Game",
+    "type": "MMO",
+    "birth": "2003-11-27",
+    "death": "2007-03-31",
+    "death_reason": "Server Shutdown",
+    "images_path": "/Games/Images/pso3",
+    "related_games": [],
+    "platforms": [
+        "GameCube"
+    ],
+    "developer": "Sonic Team",
+    "publisher": "SEGA",
+    "notes": "PSO Ep III is notable for being the sequel to the aclaimed PSO Episode I & II. Due to the game's shift in style from MMORPG to a card game didn't appeal to the fans of PSO, and the game had generally mixed reviews. Because of this the later released PSO Episode 4 Blue Burst that was released on PC, returned to the traditional gameplay.",
+    "details": "A sequel to Phantasy Star Online Episodes I & II that has card based gameplay. The game had 2 different stories involving the government of the Pioneer 2 vs The Arkz an anti government faction. Reviews were critical as the Card gameplay didn't line up with player expectations."
+}

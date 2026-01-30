@@ -1,0 +1,15 @@
+{
+    "name":"City of Heroes",
+    "genre": "Action Adventure",
+    "type": "MMO",
+    "birth":"2004-04-28",
+    "death":"2012-11-30",
+    "death_reason": "Server Shutdown",
+    "images_path":"/images/city_of_heroes",
+    "related_games":[],
+    "platforms":[],
+    "developer":"",
+    "publisher":"",
+    "notes":"The source was released in 2019, and January 4th 2024 the team behind the Homecoming: City of Heroes private server got an official license to host the game.",
+    "details":""
+}

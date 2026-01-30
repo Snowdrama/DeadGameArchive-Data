@@ -1,0 +1,21 @@
+{
+  "games": [
+    {
+      "active": false,
+      "name": "Mirador",
+      "type": "Online UGC Game",
+      "birth": "2019-07-26",
+      "death": "2019-09-24",
+      "death_reason": null,
+      "images_path": "/PreDeadGames/Images/mirador",
+      "images": [],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Sauropod Studio",
+      "publisher": "Sauropod Studio",
+      "notes": null,
+      "details": "Mirador is an online co-op hack-and-slash boss fighting game where the bosses you encounter are created by rival players! Go on arena-runs solo or with friends, find loot to create your own Sentinels and send them online to fight other players around the clock!"
+    }
+  ]
+}

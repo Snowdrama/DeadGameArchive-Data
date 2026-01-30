@@ -1,0 +1,19 @@
+{
+    "active":true,
+    "name": "Anthem",
+    "genre": "Third Person ARPG",
+    "type": "Live Service",
+    "birth": "2019-02-22",
+    "death": "2026-01-16",
+    "death_reason": "Server Shutdown",
+    "images_path": "/Games/Images/anthem",
+    "platforms": [
+        "PC",
+        "PS5",
+        "XboxOne"
+    ],
+    "developer": "Bioware",
+    "publisher": "EA",
+    "notes": "Anthem is noteable for being held up as an example of the decline of 'Live Service' gaming. The game was almost universally panned on release for it's 'looter-shooter' style gampleay being extremely grindy, and having a weak story, however it's visuals, flight gamplay, and shooting gameplay itself were considered fun on their own. While Anthem reached at least 5m units sold, it still failed to meet EA's sales expectations. Being an always online live service game there is no offline mode, and no way to play now that the servers are shut down.",
+    "details": "An Open World third-person shooter and action role-playing. Players play as a Freelancer using exosuits called Javelins to complete missions on an alien world."
+}
