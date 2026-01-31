@@ -77,12 +77,12 @@ public class DeadGameArchive
     public static void Main(string[] args)
     {
         ProcessDGAPath("Games", "dead-games.json", "dead-games-search.json");
-        ProcessDGAPath("PreDeadGames", "pre-dead-games.json", "pre-dead-games-search.json");
+        ProcessDGAPath("DeadBeforeLaunch", "dead-before-launch-games.json", "dead-before-launch-games-search.json");
         ProcessDGAPath("Preserved", "preserved-games.json", "preserved-games-search.json");
         ProcessDGAPath("MMO", "mmo-games.json", "mmo-games-search.json");
         ProcessDGAPath("Abandonware", "abandonware-games.json", "abandonware-games-search.json");
 
-        File.Copy("./Other/random-blurb.json", "./_release/random-blurb.json", true);
+        File.Copy("./Other/random-blurb.json", "./_main/random-blurb.json", true);
     }
 
     private static void ProcessDGAPath(string inputFolder, string outputJsonFile, string outputJsonSearchFile)
@@ -104,7 +104,6 @@ public class DeadGameArchive
             //process the images in the game's image path
             var gameImageFolder = $".{gameData.images_path}";
             //validate the directory exists
-            ValidateDirectory(gameImageFolder);
             var imagePaths = Directory.GetFiles(gameImageFolder);
             gameData.images = new List<string>();
 
@@ -130,15 +129,14 @@ public class DeadGameArchive
             searchFile.search_list.Add(game.name);
         }
 
-        ValidateDirectory($"./_release/{inputFolder}");
-        File.WriteAllText($"./_release/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
+        ValidateDirectory($"./_main/{inputFolder}");
+        File.WriteAllText($"./_main/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
 
         //then we paginate it into "page" json
         if(gameList.games.Count > 5)
         {
             List<GamePage> pages = new List<GamePage>();
-            int pageCount = (int)Math.Ceiling(gameList.games.Count / 5.0d); 
-            ConsoleEx.Green($"Creating {pageCount} pages...");
+            int pageCount = (int)Math.Ceiling(gameList.games.Count / 5.0d);
             int index = 0;
             for (int i = 0; i < pageCount; i++)
             {
@@ -158,14 +156,14 @@ public class DeadGameArchive
             for (int i = 0; i < pages.Count; i++)
             {
                 ConsoleEx.DarkGreen($"Creating Page: page-{i}.json");
-                ValidateDirectory($"./_release/{inputFolder}/pages");
-                File.WriteAllText($"./_release/{inputFolder}/pages/page-{i}.json", JsonConvert.SerializeObject(pages[i], Formatting.Indented));
+                ValidateDirectory($"./_main/{inputFolder}/pages");
+                File.WriteAllText($"./_main/{inputFolder}/pages/page-{i}.json", JsonConvert.SerializeObject(pages[i], Formatting.Indented));
             }
         }
 
-        //finally we write to the _release folder
-        ValidateDirectory($"./_release/{inputFolder}");
-        File.WriteAllText($"./_release/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
+        //finally we write to the _main folder
+        ValidateDirectory($"./_main/{inputFolder}");
+        File.WriteAllText($"./_main/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
     }
 
     private static void CopyFile(string oldPath, string newPath)
