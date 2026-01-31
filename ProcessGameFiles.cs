@@ -81,8 +81,6 @@ public class DeadGameArchive
         ProcessDGAPath("Preserved", "preserved-games.json", "preserved-games-search.json");
         ProcessDGAPath("MMO", "mmo-games.json", "mmo-games-search.json");
         ProcessDGAPath("Abandonware", "abandonware-games.json", "abandonware-games-search.json");
-
-        File.Copy("./Other/random-blurb.json", "./Main/random-blurb.json", true);
     }
 
     private static void ProcessDGAPath(string inputFolder, string outputJsonFile, string outputJsonSearchFile)
