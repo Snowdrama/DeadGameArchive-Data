@@ -1,0 +1,101 @@
+{
+  "game": 0,
+  "games": [
+    {
+      "active": true,
+      "name": "Vanguard: Saga of Heroes",
+      "type": "MMO",
+      "birth": "2007-01-30",
+      "death": "2014-07-31",
+      "death_reason": "Server Shutdown",
+      "images_path": "/Games/Images/vanguard_saga_of_heroes",
+      "images": [
+        "./Games/Images/vanguard_saga_of_heroes/1-vanguard-saga-of-heroes-windows-front-cover.jpg",
+        "./Games/Images/vanguard_saga_of_heroes/2-vanguard-saga-of-heroes-windows-back-cover.jpg",
+        "./Games/Images/vanguard_saga_of_heroes/4-vanguard-saga-of-heroes-windows-media.jpg",
+        "./Games/Images/vanguard_saga_of_heroes/5-vanguard-saga-of-heroes-windows-media.jpg"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "",
+      "publisher": "",
+      "notes": "Vanguard was named GameSpy's 'Biggest Disappointment' of 2007, and won 'Least Fun', 'Most Desolate', and 'Lamest Launch' by MMORPG.com. Being an MMO there's no official way to experience the game now that the servers are shut down.",
+      "details": "<To Be Written>"
+    },
+    {
+      "active": false,
+      "name": "Star Wars Galaxies",
+      "type": "MMO",
+      "birth": "2003-06-26",
+      "death": "2011-12-15",
+      "death_reason": "Server Shutdown",
+      "images_path": "/Games/Images/star_wars_galaxies",
+      "images": [
+        "./Games/Images/star_wars_galaxies/1-star-wars-galaxies-starter-kit-windows-front-cover.jpg",
+        "./Games/Images/star_wars_galaxies/3-star-wars-galaxies-starter-kit-windows-an-early-firefight-teache.jpg",
+        "./Games/Images/star_wars_galaxies/6-star-wars-galaxies-starter-kit-windows-interior-of-the-falcon-no.jpg",
+        "./Games/Images/star_wars_galaxies/8-star-wars-galaxies-starter-kit-windows-players-who-had-unlocked-.jpg"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "",
+      "publisher": "",
+      "notes": "<To Be Written> Being an MMO there's no official way to experience the game now that the servers are shut down.",
+      "details": "<To Be Written>"
+    },
+    {
+      "active": false,
+      "name": "Phantasy Star Online",
+      "type": "MMO",
+      "birth": "2000-12-21",
+      "death": "2007-03-31",
+      "death_reason": "Server Shutdown",
+      "images_path": "/Games/Images/pso",
+      "images": [
+        "./Games/Images/pso/1-pso.jpg",
+        "./Games/Images/pso/5-pso-back.jpg",
+        "./Games/Images/pso/6-pso-manual.jpg",
+        "./Games/Images/pso/7-pso-disc.jpg"
+      ],
+      "platforms": [
+        "Dreamcast",
+        "PC",
+        "GameCube",
+        "Xbox"
+      ],
+      "developer": "Sonic Team",
+      "publisher": "SEGA",
+      "notes": "PSO is notable for being the first home console MMORPG, as the Dreamcast shiped with a 56k modem for playing games online. PSO was a major success both in Japan and the US, getting multiple sequels and content updates, The game ran for 7 years before being shut down a few months after the launch of Phantasy Star Universe on the Xbox 360 and PS2. Being an MMO there's no official way to experience the game now that the servers are shut down.",
+      "details": "Players take on the role of a hunter on the Pioneer 2, hired by the government to search the planet of Ragol for signs of the crew of the Pioneer 1, who they lost contact with after a large explosion."
+    },
+    {
+      "active": false,
+      "name": "Phantasy Star Online Episode III: Card Revolution",
+      "type": "MMO",
+      "birth": "2003-11-27",
+      "death": "2007-03-31",
+      "death_reason": "Server Shutdown",
+      "images_path": "/Games/Images/pso3",
+      "images": [
+        "./Games/Images/pso3/1-1-phantasy-star-online-episode-iii-card-revolution-gamecube-title-.png",
+        "./Games/Images/pso3/1-pso-ep3.jpg",
+        "./Games/Images/pso3/10-pso-ep3-ss.jpg",
+        "./Games/Images/pso3/2-phantasy-star-online-episode-iii-card-revolution-gamecube-edit-t.png",
+        "./Games/Images/pso3/3-phantasy-star-online-episode-iii-card-revolution-gamecube-battli.png",
+        "./Games/Images/pso3/4-phantasy-star-online-episode-iii-card-revolution-gamecube-select.png",
+        "./Games/Images/pso3/5-phantasy-star-online-episode-iii-card-revolution-gamecube-story-.png",
+        "./Games/Images/pso3/6-phantasy-star-online-episode-iii-card-revolution-gamecube-battle.png",
+        "./Games/Images/pso3/7-phantasy-star-online-episode-iii-card-revolution-gamecube-you-ca.png"
+      ],
+      "platforms": [
+        "GameCube"
+      ],
+      "developer": "Sonic Team",
+      "publisher": "SEGA",
+      "notes": "PSO Ep III is notable for being the sequel to the aclaimed PSO Episode I & II. Due to the game's shift in style from MMORPG to a card game didn't appeal to the fans of PSO, and the game had generally mixed reviews. Because of this the later released PSO Episode 4 Blue Burst that was released on PC, returned to the traditional gameplay.",
+      "details": "A sequel to Phantasy Star Online Episodes I & II that has card based gameplay. The game had 2 different stories involving the government of the Pioneer 2 vs The Arkz an anti government faction. Reviews were critical as the Card gameplay didn't line up with player expectations."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "games": [
+    {
+      "active": false,
+      "name": "City of Heroes",
+      "type": "MMO",
+      "birth": "2004-04-28",
+      "death": "2012-11-30",
+      "death_reason": "Server Shutdown",
+      "images_path": "/Preserved/Images/city_of_heroes",
+      "images": [
+        "./Preserved/Images/city_of_heroes/1-CityOfHeroes.jpg",
+        "./Preserved/Images/city_of_heroes/2-CityOfHeroes-Back.jpg",
+        "./Preserved/Images/city_of_heroes/3-CityOfHeroes-Manual.jpg"
+      ],
+      "platforms": [],
+      "developer": "",
+      "publisher": "",
+      "notes": "The source was released in 2019, and January 4th 2024 the team behind the Homecoming: City of Heroes private server got an official license to host the game.",
+      "details": ""
+    },
+    {
+      "active": false,
+      "name": "Duelyst",
+      "type": "PvP",
+      "birth": "1999-09-02",
+      "death": "2007-03-31",
+      "death_reason": null,
+      "images_path": "/Preserved/Images/deulyst",
+      "images": [
+        "./Preserved/Images/deulyst/1-duelyst-windows-front-cover.jpg",
+        "./Preserved/Images/deulyst/2-duelyst-windows-front-cover.jpg",
+        "./Preserved/Images/deulyst/abyssian_cassyvasoulreaper1@2x.jpg",
+        "./Preserved/Images/deulyst/abyssian_maehv1@2x.png",
+        "./Preserved/Images/deulyst/eternityPainter@2x.jpg",
+        "./Preserved/Images/deulyst/frizzing_mystic@2x.jpg",
+        "./Preserved/Images/deulyst/lyonar_argeonhighmayne1@2x.jpg",
+        "./Preserved/Images/deulyst/lyonar_argeonhighmayne2@2x.jpg",
+        "./Preserved/Images/deulyst/lyonar_brome1@2x.png"
+      ],
+      "platforms": [],
+      "developer": "",
+      "publisher": "",
+      "notes": null,
+      "details": ""
+    }
+  ]
+}
