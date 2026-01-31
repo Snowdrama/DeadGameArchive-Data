@@ -53,13 +53,15 @@
       "death": "2019-09-24",
       "death_reason": null,
       "images_path": "/Games/Images/mirador",
-      "images": [],
+      "images": [
+        "./Games/Images/mirador/kickstarter-concept-art.png"
+      ],
       "platforms": [
         "PC"
       ],
       "developer": "Sauropod Studio",
       "publisher": "Sauropod Studio",
-      "notes": null,
+      "notes": "Mirador was a Kickstarter game by Sauropod Studio, the creators of a very popular voxel based strategy game Castle Story. The game did not reach their $60k goal, and On June 14, 2019 they announced that they were canceling the Kickstarter but the game was being added to Steam. The game would eventually release on July 26th 2019. By September 24, 2019 it was announced that Sauropod was laying off most of it's staff, around 20 people. Former employees noted mismanagment during the development of Mirador including going through several designers, and the team being made of mostly engineers. On October 3rd an official post was made noting that the studio was not closing, and that they'd continue to try and support the games as much as possible. As of 2026 the Sauropod website is no longer active.",
       "details": "Mirador is an online co-op hack-and-slash boss fighting game where the bosses you encounter are created by rival players! Go on arena-runs solo or with friends, find loot to create your own Sentinels and send them online to fight other players around the clock!"
     },
     {

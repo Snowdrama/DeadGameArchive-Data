@@ -82,7 +82,7 @@ public class DeadGameArchive
         ProcessDGAPath("MMO", "mmo-games.json", "mmo-games-search.json");
         ProcessDGAPath("Abandonware", "abandonware-games.json", "abandonware-games-search.json");
 
-        File.Copy("./Other/random-blurb.json", "./_main/random-blurb.json", true);
+        File.Copy("./Other/random-blurb.json", "./Main/random-blurb.json", true);
     }
 
     private static void ProcessDGAPath(string inputFolder, string outputJsonFile, string outputJsonSearchFile)
@@ -97,6 +97,11 @@ public class DeadGameArchive
 
         foreach(var file in files)
         {
+            if (file.Contains(".gitignore"))
+            {
+                continue;
+            }
+
             //add the game data from the file
             var gameData = JsonConvert.DeserializeObject<GameData>(File.ReadAllText(file));
             ConsoleEx.Blue($"Processing: {gameData.name}");
@@ -129,8 +134,8 @@ public class DeadGameArchive
             searchFile.search_list.Add(game.name);
         }
 
-        ValidateDirectory($"./_main/{inputFolder}");
-        File.WriteAllText($"./_main/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
+        ValidateDirectory($"./Main/{inputFolder}");
+        File.WriteAllText($"./Main/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
 
         //then we paginate it into "page" json
         if(gameList.games.Count > 5)
@@ -156,14 +161,14 @@ public class DeadGameArchive
             for (int i = 0; i < pages.Count; i++)
             {
                 ConsoleEx.DarkGreen($"Creating Page: page-{i}.json");
-                ValidateDirectory($"./_main/{inputFolder}/pages");
-                File.WriteAllText($"./_main/{inputFolder}/pages/page-{i}.json", JsonConvert.SerializeObject(pages[i], Formatting.Indented));
+                ValidateDirectory($"./Main/{inputFolder}/pages");
+                File.WriteAllText($"./Main/{inputFolder}/pages/page-{i}.json", JsonConvert.SerializeObject(pages[i], Formatting.Indented));
             }
         }
 
-        //finally we write to the _main folder
-        ValidateDirectory($"./_main/{inputFolder}");
-        File.WriteAllText($"./_main/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
+        //finally we write to the Main folder
+        ValidateDirectory($"./Main/{inputFolder}");
+        File.WriteAllText($"./Main/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
     }
 
     private static void CopyFile(string oldPath, string newPath)
