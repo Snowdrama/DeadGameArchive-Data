@@ -134,8 +134,8 @@ public class DeadGameArchive
             searchFile.search_list.Add(game.name);
         }
 
-        ValidateDirectory($"./_Generated/{inputFolder}");
-        File.WriteAllText($"./_Generated/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
+        ValidateDirectory($"./Z_Generated/{inputFolder}");
+        File.WriteAllText($"./Z_Generated/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
 
         //then we paginate it into "page" json
         if(gameList.games.Count > 5)
@@ -161,14 +161,14 @@ public class DeadGameArchive
             for (int i = 0; i < pages.Count; i++)
             {
                 ConsoleEx.DarkGreen($"Creating Page: page-{i}.json");
-                ValidateDirectory($"./_Generated/{inputFolder}/pages");
-                File.WriteAllText($"./_Generated/{inputFolder}/pages/page-{i}.json", JsonConvert.SerializeObject(pages[i], Formatting.Indented));
+                ValidateDirectory($"./Z_Generated/{inputFolder}/pages");
+                File.WriteAllText($"./Z_Generated/{inputFolder}/pages/page-{i}.json", JsonConvert.SerializeObject(pages[i], Formatting.Indented));
             }
         }
 
-        //finally we write to the _Generated folder
-        ValidateDirectory($"./_Generated/{inputFolder}");
-        File.WriteAllText($"./_Generated/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
+        //finally we write to the Z_Generated folder
+        ValidateDirectory($"./Z_Generated/{inputFolder}");
+        File.WriteAllText($"./Z_Generated/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
     }
 
     private static void CopyFile(string oldPath, string newPath)
