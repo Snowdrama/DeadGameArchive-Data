@@ -1,0 +1,24 @@
+{
+    "active":true,
+    "name": "",
+    "genre": "",
+    "type": "",
+    "birth": "YYYY-MM-DD",
+    "death": "YYYY-MM-DD",
+    "death_reason": "",
+    "images_path": "",
+    "images": [],
+    "related_games": [],
+    "platforms": [],
+    "developer": "",
+    "publisher": "",
+    "notes": "",
+    "details": "",
+    "description": "",
+    "references":[
+        {
+            "name":"",
+            "link":""
+        }
+    ]
+}

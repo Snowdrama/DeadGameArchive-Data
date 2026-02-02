@@ -17,7 +17,7 @@
       "developer": "",
       "publisher": "",
       "notes": "The source was released in 2019, and January 4th 2024 the team behind the Homecoming: City of Heroes private server got an official license to host the game.",
-      "description": ""
+      "details": null
     },
     {
       "active": false,
@@ -42,7 +42,7 @@
       "developer": "",
       "publisher": "",
       "notes": "While a bittersweet end, the devs behind the Card game Duelyst completely open sourced the game with a CC0 license when the game eventually shut down. ",
-      "description": ""
+      "details": null
     }
   ]
 }

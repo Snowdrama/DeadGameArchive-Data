@@ -107,6 +107,8 @@ public class DeadGameArchive
             //process the images in the game's image path
             var gameImageFolder = $".{gameData.images_path}";
             //validate the directory exists
+            ValidateDirectory(gameImageFolder);
+
             var imagePaths = Directory.GetFiles(gameImageFolder);
             gameData.images = new List<string>();
 
@@ -132,8 +134,8 @@ public class DeadGameArchive
             searchFile.search_list.Add(game.name);
         }
 
-        ValidateDirectory($"./Main/{inputFolder}");
-        File.WriteAllText($"./Main/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
+        ValidateDirectory($"./_Generated/{inputFolder}");
+        File.WriteAllText($"./_Generated/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
 
         //then we paginate it into "page" json
         if(gameList.games.Count > 5)
@@ -159,14 +161,14 @@ public class DeadGameArchive
             for (int i = 0; i < pages.Count; i++)
             {
                 ConsoleEx.DarkGreen($"Creating Page: page-{i}.json");
-                ValidateDirectory($"./Main/{inputFolder}/pages");
-                File.WriteAllText($"./Main/{inputFolder}/pages/page-{i}.json", JsonConvert.SerializeObject(pages[i], Formatting.Indented));
+                ValidateDirectory($"./_Generated/{inputFolder}/pages");
+                File.WriteAllText($"./_Generated/{inputFolder}/pages/page-{i}.json", JsonConvert.SerializeObject(pages[i], Formatting.Indented));
             }
         }
 
-        //finally we write to the Main folder
-        ValidateDirectory($"./Main/{inputFolder}");
-        File.WriteAllText($"./Main/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
+        //finally we write to the _Generated folder
+        ValidateDirectory($"./_Generated/{inputFolder}");
+        File.WriteAllText($"./_Generated/{inputFolder}/{outputJsonFile}", JsonConvert.SerializeObject(gameList, Formatting.Indented));
     }
 
     private static void CopyFile(string oldPath, string newPath)
