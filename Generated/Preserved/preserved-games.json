@@ -4,6 +4,7 @@
       "active": false,
       "name": "City of Heroes",
       "type": "MMO",
+      "genre": "Action Adventure",
       "birth": "2004-04-28",
       "death": "2012-11-30",
       "death_reason": "Server Shutdown",
@@ -17,12 +18,14 @@
       "developer": "",
       "publisher": "",
       "notes": "The source was released in 2019, and January 4th 2024 the team behind the Homecoming: City of Heroes private server got an official license to host the game.",
-      "details": null
+      "details": null,
+      "description": ""
     },
     {
       "active": false,
       "name": "Duelyst",
       "type": "PvP",
+      "genre": "Strategy",
       "birth": "1999-09-02",
       "death": "2007-03-31",
       "death_reason": null,
@@ -42,7 +45,8 @@
       "developer": "",
       "publisher": "",
       "notes": "While a bittersweet end, the devs behind the Card game Duelyst completely open sourced the game with a CC0 license when the game eventually shut down. ",
-      "details": null
+      "details": null,
+      "description": ""
     }
   ]
 }

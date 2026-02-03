@@ -12,6 +12,7 @@ public struct GameData
     public bool active;
     public string name;
     public string type;
+    public string genre;
     public DateOnly birth;
     public DateOnly death;
     public string death_reason;
@@ -22,6 +23,7 @@ public struct GameData
     public string publisher;
     public string notes;
     public string details;
+    public string description;
 }
 
 public struct GameList

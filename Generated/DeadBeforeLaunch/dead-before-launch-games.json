@@ -4,6 +4,7 @@
       "active": true,
       "name": "Ashes of Creation",
       "type": "MMO",
+      "genre": "Action RPG",
       "birth": "2025-12-11",
       "death": "2026-02-02",
       "death_reason": "Studio Closure",
@@ -22,7 +23,8 @@
       "developer": "Intrepid Studios",
       "publisher": "Intrepid Studios",
       "notes": "Ashes of Creation was a Kickstarter game that launched May 1 2017, and was fully funded June 2, 2017. The game had multiple controversies surrounding the game's development, and over the next several years had multiple alpha releases, On December 11th 2025 the game was released on Steam in early access. February 2nd it was revealed that the game's lead resigned citing that the company's board that they didn't agree with and multiple other unnamed members of the senior leadership left as well. With that the remaining board members issued WARN Act notices, and laid of the rest of the remaining staff in a mass layoff, closing the studio and effectively killing the game.",
-      "details": "In a post on the official discord studio lead Steven Sharif said: ```I can make a limited statement in my personal capacity and not on behalf of the company, regarding the situation. Control of the company shifted away from me, and the Board began directing actions that I could not ethically agree with or carry out. As a result, I chose to resign in protest rather than lend my name or authority to decisions I could not ethically support. Following my resignation, much of the senior leadership team resigned. Following those departures, the Board made the decision to issue WARN Act notices and proceed with a mass layoff. I cannot responsibly speak to further details at this time due to ongoing legal and governance matters. What I can say is that the developers and staff acted in good faith and deserved better than the uncertainty they are now facing. I am incredibly dismayed by the situation. — Steven Sharif```"
+      "details": "In a post on the official discord studio lead Steven Sharif said: ```I can make a limited statement in my personal capacity and not on behalf of the company, regarding the situation. Control of the company shifted away from me, and the Board began directing actions that I could not ethically agree with or carry out. As a result, I chose to resign in protest rather than lend my name or authority to decisions I could not ethically support. Following my resignation, much of the senior leadership team resigned. Following those departures, the Board made the decision to issue WARN Act notices and proceed with a mass layoff. I cannot responsibly speak to further details at this time due to ongoing legal and governance matters. What I can say is that the developers and staff acted in good faith and deserved better than the uncertainty they are now facing. I am incredibly dismayed by the situation. — Steven Sharif```",
+      "description": "Ashes of Creation is an old-school take on the modern MMORPG set in a living, reactive world where your choices shape civilization. In this PvX open world sandbox, players will build cities, forge empires, and lay siege to foes. Uncover the Ancients as you fight to reclaim the fallen world of Verra."
     }
   ]
 }
