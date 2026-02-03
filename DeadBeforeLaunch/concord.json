@@ -1,0 +1,26 @@
+{
+    "active":true,
+    "name": "Concord",
+    "genre": "FPS",
+    "type": "Online Compettitive",
+    "birth": "2024-08-23",
+    "death": "2024-09-06",
+    "death_reason": "Shutdown/Studio Closure",
+    "images_path": "/DeadBeforeLaunch/Images/concord",
+    "images": [],
+    "related_games": [],
+    "platforms": [
+        "PC", "PS5"
+    ],
+    "developer": "Firewalk Studios",
+    "publisher": "Sony Interactive Entertainment",
+    "notes": "Concord was a multiplayer hero shooter by Firewalk Studios. Firewalk started developing the game in 2018, and then was acquired by SIE in 2023. The game was shown off in the May 24th 2023 PlayStation Showcase, and a beta was released later in July. The game later released in 2024, and it was generally criricised for it's detailed but bland feeling characters, pretty yet uninspired visuals, and lack of features that set it apart from other hero shooters, while it was praised for it's well made shooting and reload animations, and that the gameplay was snappy and satifying. Ultimately the game was not a success and SIE pulled the game only a few weeks later, killing the game and closing the studio",
+    "details": "### Trivia\n The game was featured in an episode of Amazon Prime Video's 'Secret Level' however, while the game shut down beforehand, the episode still was released on December 17th 2024",
+    "description": "Concord is a multiplayer online hero shooter. Assemble your crew of Freegunner space outlaws and team up with friends online.",
+    "references":[
+        {
+            "name":"",
+            "link":""
+        }
+    ]
+}

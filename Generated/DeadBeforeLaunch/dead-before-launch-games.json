@@ -25,6 +25,36 @@
       "notes": "Ashes of Creation was a Kickstarter game that launched May 1 2017, and was fully funded June 2, 2017. The game had multiple controversies surrounding the game's development, and over the next several years had multiple alpha releases, On December 11th 2025 the game was released on Steam in early access. February 2nd it was revealed that the game's lead resigned citing that the company's board that they didn't agree with and multiple other unnamed members of the senior leadership left as well. With that the remaining board members issued WARN Act notices, and laid of the rest of the remaining staff in a mass layoff, closing the studio and effectively killing the game.",
       "details": "In a post on the official discord studio lead Steven Sharif said: ```I can make a limited statement in my personal capacity and not on behalf of the company, regarding the situation. Control of the company shifted away from me, and the Board began directing actions that I could not ethically agree with or carry out. As a result, I chose to resign in protest rather than lend my name or authority to decisions I could not ethically support. Following my resignation, much of the senior leadership team resigned. Following those departures, the Board made the decision to issue WARN Act notices and proceed with a mass layoff. I cannot responsibly speak to further details at this time due to ongoing legal and governance matters. What I can say is that the developers and staff acted in good faith and deserved better than the uncertainty they are now facing. I am incredibly dismayed by the situation. — Steven Sharif```",
       "description": "Ashes of Creation is an old-school take on the modern MMORPG set in a living, reactive world where your choices shape civilization. In this PvX open world sandbox, players will build cities, forge empires, and lay siege to foes. Uncover the Ancients as you fight to reclaim the fallen world of Verra."
+    },
+    {
+      "active": true,
+      "name": "Concord",
+      "type": "Online Compettitive",
+      "genre": "FPS",
+      "birth": "2024-08-23",
+      "death": "2024-09-06",
+      "death_reason": "Shutdown/Studio Closure",
+      "images_path": "/DeadBeforeLaunch/Images/concord",
+      "images": [
+        "./DeadBeforeLaunch/Images/concord/concord-1.jpg",
+        "./DeadBeforeLaunch/Images/concord/concord-2.jpg",
+        "./DeadBeforeLaunch/Images/concord/concord-3.jpg",
+        "./DeadBeforeLaunch/Images/concord/concord-4.jpg",
+        "./DeadBeforeLaunch/Images/concord/concord-5.jpg",
+        "./DeadBeforeLaunch/Images/concord/concord-6.jpg",
+        "./DeadBeforeLaunch/Images/concord/concord-7.jpg",
+        "./DeadBeforeLaunch/Images/concord/concord-8.jpg",
+        "./DeadBeforeLaunch/Images/concord/concord-9.jpg"
+      ],
+      "platforms": [
+        "PC",
+        "PS5"
+      ],
+      "developer": "Firewalk Studios",
+      "publisher": "Sony Interactive Entertainment",
+      "notes": "Concord was a multiplayer hero shooter by Firewalk Studios. Firewalk started developing the game in 2018, and then was acquired by SIE in 2023. The game was shown off in the May 24th 2023 PlayStation Showcase, and a beta was released later in July. The game later released in 2024, and it was generally criricised for it's detailed but bland feeling characters, pretty yet uninspired visuals, and lack of features that set it apart from other hero shooters, while it was praised for it's well made shooting and reload animations, and that the gameplay was snappy and satifying. Ultimately the game was not a success and SIE pulled the game only a few weeks later, killing the game and closing the studio",
+      "details": "### Trivia\n The game was featured in an episode of Amazon Prime Video's 'Secret Level' however, while the game shut down beforehand, the episode still was released on December 17th 2024",
+      "description": "Concord is a multiplayer online hero shooter. Assemble your crew of Freegunner space outlaws and team up with friends online."
     }
   ]
 }
