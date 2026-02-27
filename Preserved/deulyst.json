@@ -4,7 +4,7 @@
     "type": "PvP",
     "birth":"1999-09-02",
     "death":"2007-03-31",
-    "death-reason": "Studio Closure",
+    "death_reason": "Studio Closure",
     "images_path":"/Preserved/Images/deulyst",
     "variants":[],
     "platforms":[],

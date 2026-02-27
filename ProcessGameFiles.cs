@@ -9,8 +9,8 @@ public struct GameData
     public string name;
     public string type;
     public string genre;
-    public DateOnly birth;
-    public DateOnly death;
+    public DateOnly? birth;
+    public DateOnly? death;
     public string death_reason;
     public string images_path;
     public List<string> images;
@@ -78,6 +78,7 @@ public class DeadGameArchive
         ProcessDGAPath("DeadBeforeLaunch", "dead-before-launch-games.json", "dead-before-launch-games-search.json");
         ProcessDGAPath("Preserved", "preserved-games.json", "preserved-games-search.json");
         ProcessDGAPath("MMO", "mmo-games.json", "mmo-games-search.json");
+        ProcessDGAPath("DRMFree", "drm-free-games.json", "drm-free-games-search.json");
         ProcessDGAPath("Abandonware", "abandonware-games.json", "abandonware-games-search.json");
     }
 

@@ -1,0 +1,27 @@
+{
+  "games": [
+    {
+      "active": true,
+      "name": "",
+      "type": "",
+      "genre": "",
+      "birth": "2026-01-01",
+      "death": null,
+      "death_reason": "",
+      "images_path": "/DRMFree/Images/cyberpunk_2077",
+      "images": [
+        "./DRMFree/Images/cyberpunk_2077/cyberpunk-1.jpg",
+        "./DRMFree/Images/cyberpunk_2077/cyberpunk-2.jpg",
+        "./DRMFree/Images/cyberpunk_2077/cyberpunk-3.jpg",
+        "./DRMFree/Images/cyberpunk_2077/cyberpunk-4.jpg",
+        "./DRMFree/Images/cyberpunk_2077/cyberpunk-5.jpg"
+      ],
+      "platforms": [],
+      "developer": "CD Projekt Red",
+      "publisher": "",
+      "notes": "With CD Projekt Red being associated with GOG the DRM-Free platform Cyberpunk 2077, like the Witcher, is DRM-Free. This is one of the most high profile and successful AAA games that released day 1 DRM-Free!",
+      "details": "",
+      "description": ""
+    }
+  ]
+}

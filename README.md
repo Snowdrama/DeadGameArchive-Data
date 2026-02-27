@@ -34,3 +34,20 @@ TODO: Put the game structure here
 ![A Screenshot From Anthem](/Games/Images/anthem/anthem-ss.jpg)
 
 Images go in the folder respective to the JSON so for example the JSON for the game Anthem is at `/Games/anthem.json` and image from Anthem above is found in `/Games/Images/anthem/anthem-ss.jpg` if you look in the JSON the path `/Games/Images/anthem` is listed as the `images_path` for Anthem.
+
+
+# Dev
+
+Since I use C# for a lot of my tooling most of the stuff here is managed with C# scripts and I use `dotnet` for things
+
+### Generating Game Files
+To generate the data you can use the `ProcessGameFiles.cs` which does all the work to generate the required files
+```
+dotnet run ProcessGameFiles.cs
+```
+
+### Hosting Data
+To host for my dev environmentI use:
+```
+dotnet serve --tls --cors --port 56448
+```
